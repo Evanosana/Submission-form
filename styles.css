@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: #FAF9F6;
+    /* border: 4px solid tomato; */
+}
+.all{
+    width: 600px;
+    height: 680px;
+    background-color: lightsteelblue;
+    /* border: 4px solid black; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    background-color: white;
+    width: 600px;
+    height: 125px;
+    border-bottom: lightgray solid 0.5px;
+    /* border: 4px solid green; */
+}
+img{
+    height: 125px;
+    width: 125px;
+    float: right;
+    /* border: red 4px solid; */
+}
+.underheader{
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+}
+.information{
+    height: 555px;
+    width:100%-125px;
+    margin: auto;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.user{
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.pass{
+    height: 16px;
+}
+p{
+    display: inline-block;
+    margin: 5px;
+}
+.userdiv{
+    padding-top: 30px;
+}
