@@ -7,8 +7,8 @@ body{
 }
 .all{
     width: 600px;
-    height: 680px;
-    background-color: lightsteelblue;
+    height: 695px;
+    background-color: #808080;
     /* border: 4px solid black; */
 }
 .header{
@@ -46,17 +46,23 @@ img{
 }
 .user{
     display: inline-block;
-    margin-left: 75px;
-    margin-top: 15px;
-    margin-bottom: 0px;
 }
 .pass{
     height: 16px;
 }
 p{
-    display: inline-block;
+    /* display: inline-block; */
     margin: 5px;
 }
 .userdiv{
-    padding-top: 30px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-left: 185px;
+}
+.split{
+    margin-top: 30px;
+}
+.submit{
+    margin-top: 10px;
+    width: 225px;
 }
